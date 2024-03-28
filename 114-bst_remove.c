@@ -1,14 +1,8 @@
 #include "binary_trees.h"
 /**
- * bst_search - search for a value in a BST
- * @tree: root of the tree
- * @value: value to search
- * Return: the node found
- */
-/**
- * successor - function that get next successor min node in the right subtree
+ * successor - returns the minimum node in the right subtree
  * @node: tree to check
- * Return: the min value of this tree
+ * Return: the minimum value of this tree
  */
 int successor(bst_t *node)
 {
