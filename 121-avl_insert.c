@@ -57,7 +57,7 @@ avl_t *r_insert_node(avl_t **tree, avl_t *parent, avl_t **new, int nval)
  * avl_insert - inserts a value into an AVL tree.
  * @tree: type **pointer to the root node of the AVL tree to insert into.
  * @value: value to store in the node to be inserted
- * Return: 
+ * Return:
  *          inserted node, or NULL if fails.
  */
 

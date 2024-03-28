@@ -1,4 +1,4 @@
-#include "binary_trees.h" 
+#include "binary_trees.h"
 /**
  * heap_insert - inserts a value in Max Binary Heap
  * @root: a double pointer to the root node of the Heap to insert the value
@@ -26,7 +26,6 @@ heap_t *heap_insert(heap_t **root, int value)
 
 	for (bit = 1 << (level - 1); bit != 1; bit >>= 1)
 		tree = leaves & bit ? tree->right : tree->left;
-    
 	/**
 	 * Traverse tree to first empty slot based on the binary
 	 * representation of the number of leaves.

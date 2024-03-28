@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "binary_trees.h" 
+#include "binary_trees.h"
 
 /**
  * print_t - Stores recursively each level in an array of strings
